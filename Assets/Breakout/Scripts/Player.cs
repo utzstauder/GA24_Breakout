@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     {
         mousePositionScreen = Input.mousePosition;
 
-        // convert mouse position from screen to world space
         mousePositionWorldSpace = Camera.main.ScreenToWorldPoint(mousePositionScreen);
 
         print(mousePositionWorldSpace);
