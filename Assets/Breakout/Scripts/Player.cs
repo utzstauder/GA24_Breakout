@@ -19,8 +19,6 @@ public class Player : MonoBehaviour
         mousePositionScreen = Input.mousePosition;
 
         mousePositionWorldSpace = Camera.main.ScreenToWorldPoint(mousePositionScreen);
-
-        print(mousePositionWorldSpace);
     }
 
     private void FixedUpdate()
